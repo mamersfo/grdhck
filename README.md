@@ -5,11 +5,13 @@ Hack for trying out
 
 Usage after cloning this repo:
 
-    cd gridhack
-    npm install jspm --save-dev # if not installed yet
+    cd gridhck
+    # get jspm if not yet installed
+    npm install jspm --save-dev 
     jspm install
     jspm bundle app/**/* - [app/**/*] dependency-bundle.js --inject
-    npm install -g serve # if not installed yet
+    # get serve if not yet installed
+    npm install -g serve
     serve
 
 Then go to http://localhost:3000
